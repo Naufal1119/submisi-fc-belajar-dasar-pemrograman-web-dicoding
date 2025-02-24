@@ -7,20 +7,26 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <header>
-        <div class="Jumbtron">
+        <div class="jumbotron">
             <h1>Submission Dicoding</h1>
-        <nav>
-            <ul>
-                <li><a href="#Beranda">Beranda</a></li>
-                <li><a href="#Tentang">Tentang</a></li>
-                <li><a href="#Kontak">Kontak</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul id="menu">
+                    <li><a href="#Beranda">Beranda</a></li>
+                    <li><a href="#Tentang">Tentang</a></li>
+                    <li><a href="#Kontak">Kontak</a></li>
+                    <li class="dropdown">
+                        <a href="#" id="dropdownMenu">Lainnya ▼</a>
+                        <ul class="dropdown-content" id="dropdownContent">
+                            <li><a href="#">Profil</a></li>
+                            <li><a href="#">Galeri</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
-
     <main>
         <article>
             <h2>Profil Singkat</h2>
@@ -35,7 +41,6 @@
                 atau kolaborasi yang bisa kita lakukan bersama. Selamat menjelajahi!
             </p>
         </article>
-
         <aside>
             <h2>Logo</h2>
             <img src="img/Logo_Naufal.jpeg" alt="Deskripsi Gambar">
@@ -66,10 +71,10 @@
               </section>
         </aside>
     </main>
-
     <footer>
         <p>Hak Cipta © 2023. Naufal</p>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 </html>
